@@ -566,10 +566,7 @@ footer {
       padding:0 20px;
       height: 100%;
     } 
-.bodysalvador{
-  background-color: #0e2331;
-  height: 100%;
-}
+
      header nav{
       display: flex;
       justify-content: space-between;
