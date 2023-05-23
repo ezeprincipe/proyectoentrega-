@@ -555,17 +555,21 @@ footer {
      .logoimg{
       width: 100px;
       height: 100px;
-      z-index: 4;
-     }
-     header {
+      z-index: 4;}
+
+      header {
       position: sticky;
       top: 0;
       z-index: 100; 
       background-color: #0e2331;
       color: #fff;
       padding:0 20px;
-      height: 100px;
-    }
+      height: 100%;
+    } 
+.bodysalvador{
+  background-color: #0e2331;
+  height: 100%;
+}
      header nav{
       display: flex;
       justify-content: space-between;
