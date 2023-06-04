@@ -1,0 +1,36 @@
+@media (max-width: 1490px){ main h2{font-size: 13px;}
+.c1{left: 15%;}
+.c2{left: 9%;}}
+
+@media (max-width: 768px){
+  .grid-unico {
+  grid-template-columns:repeat(2,1fr);
+  grid-template-areas:
+  "tarjetamovil-1 tarjetamovil-2"
+  "tarjetamovil-3 tarjetamovil-4"
+  "tarjetamovil-5 tarjetamovil-5"
+  "tarjetamovil-6 tarjetamovil-7"
+  "tarjetamovil-8 tarjetamovil-9" ;
+  gap: 1%;
+  overflow: hidden;}
+  main h2{font-size: 13px;}
+  .c1{left: 15%;}
+  .c2{left: 9%;}
+}
+@media (max-width:730px){
+  .ulmenu li a{
+    font-size: 27px;
+  }
+}
+
+@media (max-width:680px){
+  .ulmenu li a {font-size:23px; }
+}
+
+@media (max-width:613px){
+  .ulmenu li a {font-size:20px; }
+}
+
+@media (max-width:576px){
+  .ulmenu li a {font-size:18px; }
+}

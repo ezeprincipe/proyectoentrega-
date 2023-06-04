@@ -1,0 +1,74 @@
+nav{
+    z-index: 2;
+   
+  }
+  nav div{
+      height: 0px;
+      width: 0px;
+  }
+  header nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+   }
+   .headercont{
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+    background-color: $color-nav;
+    color: #fff;
+    padding:0 20px;
+  }
+  .logoimg{
+    width: 100px;
+    height: 100px;
+    z-index: 4;}
+
+    header {
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+    background-color: $color-nav;
+    color: #fff;
+    padding:0 20px;
+    height: 100%;
+  } 
+  .logo{
+    display: flex;
+    width: 50%;
+    justify-content:start;
+    align-self: center;
+    height: 103.1%;
+  }
+
+
+.contactoheader{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: $color-nav;
+  color: #fff;
+
+  height: 100px;
+}
+       
+    .ulmenu{
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content:end;
+      color: $color-nav;
+      gap: 3%;
+      margin: 0%;
+      }
+  
+      .ulmenu li a{
+        color: #ffffff;
+      text-decoration: none;
+      border: 2px solid #ffffff;
+      border-radius: 10px;
+      padding: 7px 12px;
+      font-size: 32px;
+      font-weight: bold;
+      }
+  
