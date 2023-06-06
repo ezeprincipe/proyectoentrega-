@@ -31,7 +31,7 @@ header nav {
   top: 0;
   z-index: 100;
   background-color: #0e2331;
-  color: #fff;
+  color: #ffffff;
   padding: 0 20px;
 }
 
@@ -46,7 +46,7 @@ header {
   top: 0;
   z-index: 100;
   background-color: #0e2331;
-  color: #fff;
+  color: #ffffff;
   padding: 0 20px;
   height: 100%;
 }
@@ -64,7 +64,7 @@ header {
   top: 0;
   z-index: 100;
   background-color: #0e2331;
-  color: #fff;
+  color: #ffffff;
   height: 100px;
 }
 
@@ -81,7 +81,6 @@ header {
 .ulmenu li a {
   color: #ffffff;
   text-decoration: none;
-  border: 2px solid #ffffff;
   border-radius: 10px;
   padding: 7px 12px;
   font-size: 32px;
@@ -99,7 +98,7 @@ header {
 }
 
 footer {
-  background-color: #191919;
+  background-color: rgba(25, 25, 25, 0.9803921569);
   padding: 30px;
   background-color: #0e2331;
   color: #fff;
@@ -142,7 +141,7 @@ footer a {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #191919;
+  background-color: rgba(25, 25, 25, 0.9803921569);
 }
 
 /* HEROLEFT */
@@ -156,17 +155,17 @@ footer a {
   gap: 40px;
 }
 .hero__left h1 {
-  color: rgba(238, 238, 238, 0.9333333333);
+  color: #ffffff;
   font-size: 40px;
 }
 .hero__left p {
-  color: #eee;
+  color: #ffffff;
   font-size: 24px;
 }
 .hero__left a {
   background-color: rgba(185, 167, 167, 0.6039215686);
   border: 2px solid transparent;
-  color: #191919;
+  color: rgba(25, 25, 25, 0.9803921569);
   padding: 2px;
   transition: 0.3s;
 }
@@ -186,7 +185,7 @@ footer a {
   width: 70px;
   height: 70px;
   object-fit: cover;
-  border: 2px solid rgba(238, 238, 238, 0.9333333333);
+  border: 2px solid #ffffff;
   border-radius: 100%;
   margin: -10px;
   transition: 0.3s;
@@ -218,7 +217,7 @@ footer a {
 }
 .hero__right__title:hover {
   background-color: rgba(185, 167, 167, 0.6039215686);
-  box-shadow: 5px 5px 5px 5px #191919;
+  box-shadow: 5px 5px 5px 5px rgba(25, 25, 25, 0.9803921569);
   padding: 10px;
   font-size: 20px;
 }
@@ -254,7 +253,7 @@ footer a {
 
 .bluebar {
   display: inline-block;
-  background-color: #191919;
+  background-color: rgba(25, 25, 25, 0.9803921569);
   border-radius: 50px;
   width: 30%;
   height: 15px;
@@ -266,12 +265,12 @@ footer a {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #191919;
+  background-color: rgba(25, 25, 25, 0.9803921569);
 }
 .catalogoprinci .ofertas {
   background-color: #ffffff;
   border: 2px solid transparent;
-  color: #191919;
+  color: rgba(25, 25, 25, 0.9803921569);
   padding: 10px;
   border-radius: 10px;
   min-width: 170px;
@@ -320,7 +319,15 @@ footer a {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #191919;
+  background-color: rgba(25, 25, 25, 0.9803921569);
+}
+.ayudaprinci p {
+  color: #ffffff;
+}
+
+textarea {
+  display: flex;
+  align-items: center;
 }
 
 form {
@@ -332,13 +339,14 @@ form label {
   font-size: 28px;
   margin-bottom: 10px;
   padding-bottom: 14.5px;
+  color: #ffffff;
 }
 
 .contactoprinci {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #191919;
+  background-color: rgba(25, 25, 25, 0.9803921569);
 }
 
 .bodycont {
@@ -406,7 +414,7 @@ form label {
 }
 .login-box form a:hover {
   background: #ffffff;
-  color: #191919;
+  color: rgba(25, 25, 25, 0.9803921569);
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.4235294118), 0 0 25px rgba(255, 255, 255, 0.4235294118), 0 0 50px rgba(255, 255, 255, 0.4235294118), 0 0 100px rgba(255, 255, 255, 0.4235294118);
 }
@@ -602,8 +610,8 @@ form label {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #191919;
-  color: white;
+  background-color: rgba(25, 25, 25, 0.9803921569);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 20px;
   transition: all 0.5s ease;
@@ -620,7 +628,7 @@ form label {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #191919;
+  background-color: rgba(25, 25, 25, 0.9803921569);
 }
 
 main div {
@@ -636,7 +644,7 @@ main div img {
 }
 
 .titlegal {
-  color: #191919;
+  color: rgba(25, 25, 25, 0.9803921569);
   border: 2px solid transparent;
   padding: 2px;
   background-color: rgba(185, 167, 167, 0.6039215686);
@@ -650,7 +658,7 @@ main h2 {
   margin-top: 50px;
   margin-bottom: 20px;
   text-align: center;
-  color: #f7f1e5;
+  color: #ffffff;
 }
 
 main a.ofertas {

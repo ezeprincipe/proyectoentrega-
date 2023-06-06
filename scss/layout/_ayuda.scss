@@ -17,4 +17,13 @@
   align-items: center;
   padding: 20px;
   background-color: $color-fondo;
+
+  p {
+    color: $color-blanco;
+  }
+}
+
+textarea {
+  display: flex;
+  align-items: center;
 }

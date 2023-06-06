@@ -21,11 +21,11 @@
   width: 90%;
   gap: 40px;
   h1 {
-    color: #eeee;
+    color: $color-blanco;
     font-size: 40px;
   }
   p {
-    color: #eee;
+    color: $color-blanco;
     font-size: 24px;
   }
   a {
@@ -50,7 +50,7 @@
       width: 70px;
       height: 70px;
       object-fit: cover;
-      border: 2px solid #eeee;
+      border: 2px solid $color-blanco;
       border-radius: 100%;
       margin: -10px;
       transition: .3s;

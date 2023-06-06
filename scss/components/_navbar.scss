@@ -16,7 +16,7 @@ nav{
     top: 0;
     z-index: 100; 
     background-color: $color-nav;
-    color: #fff;
+    color: $color-blanco;
     padding:0 20px;
   }
   .logoimg{
@@ -29,7 +29,7 @@ nav{
     top: 0;
     z-index: 100; 
     background-color: $color-nav;
-    color: #fff;
+    color: $color-blanco;
     padding:0 20px;
     height: 100%;
   } 
@@ -47,7 +47,7 @@ nav{
   top: 0;
   z-index: 100;
   background-color: $color-nav;
-  color: #fff;
+  color: $color-blanco;
 
   height: 100px;
 }
@@ -63,9 +63,8 @@ nav{
       }
   
       .ulmenu li a{
-        color: #ffffff;
+        color: $color-blanco;
       text-decoration: none;
-      border: 2px solid #ffffff;
       border-radius: 10px;
       padding: 7px 12px;
       font-size: 32px;
