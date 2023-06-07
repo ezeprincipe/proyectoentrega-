@@ -1,8 +1,6 @@
 
 .catalogoprinci {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @include flex-alaing-direction(center,column);
   padding: 20px;
   background-color: $color-fondo;
 
@@ -21,8 +19,7 @@
   }
 
   .maincontact {
-    height: 90%;
-    width: 100%;
+    @include height-width (90%,100%);
   }
 
   .img-container {

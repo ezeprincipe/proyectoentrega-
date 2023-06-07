@@ -1,0 +1,18 @@
+@mixin flex-justify-align-($jc,$ai){
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+
+@mixin height-width($h , $w){
+height:$h;
+width:$w;
+}
+
+
+  @mixin flex-alaing-direction($ai,$fd){
+    display: flex;
+    align-items: $ai;
+    flex-direction: $fd;
+  }
