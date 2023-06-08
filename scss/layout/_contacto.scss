@@ -1,5 +1,5 @@
 form {
-  @include flex-alaing-direction(center,column);
+   @include flex-alaing-direction(center,column);
 
   label {
     font-size: 28px;
@@ -10,7 +10,7 @@ form {
 }
 
 .contactoprinci {
-  @include flex-justify-align(center,center);
+   @include flex-justify-align(center,center);
   background-color: $color-fondo;
 }
 

@@ -1,8 +1,11 @@
 //1490px
-@media (max-width: 1490px){ main h2{font-size: 18px;}
+@media (max-width: 1490px){ main h2{font-size: 25px;}
 .c1{left: 15%;}
 .c2{left: 9%;}}
 
+//940
+@media(max-width: 940px){main h2{font-size:20px}
+}
 
 //768px
 @media (max-width: 768px){
@@ -16,9 +19,11 @@
   "tarjetamovil-8 tarjetamovil-9" ;
   gap: 1%;
   overflow: hidden;}
-  main h2{font-size: 13px;}
+  main h2{font-size: 16px;}
   .c1{left: 15%;}
   .c2{left: 9%;}
+  .c2{ transform: scale(0.9);}
+  .c1{ transform: scale(0.9);}
 }
 
 
@@ -45,4 +50,10 @@
 // 576px
 @media (max-width:576px){
   .ulmenu li a {font-size:18px; }
+}
+
+
+//490
+@media (max-width:490px){
+  .ulmenu li a {font-size:15px; }
 }
