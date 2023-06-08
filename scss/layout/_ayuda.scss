@@ -10,7 +10,7 @@
 }
 
 .ayudaprinci {
-  @include flex-alaing-direction(center,column);
+ @extend .mapa;
   padding: 20px;
   background-color: $color-fondo;
 

@@ -4,7 +4,7 @@
 }
 
 .indexprinci {
-  @include flex-alaing-direction(center,column);
+ @extend .mapa;
   padding: 20px;
   background-color: $color-fondo;
 }
@@ -100,14 +100,12 @@
   position: absolute;
   bottom: 30%;
   left: -20%;
-  transform: scale(0.9);
 }
 
 .c2 {
   position: absolute;
   bottom: 5%;
   left: -10%; 
-  transform: scale(0.9);
 }
 
 .graybar {

@@ -242,14 +242,12 @@ footer a {
   position: absolute;
   bottom: 30%;
   left: -20%;
-  transform: scale(0.9);
 }
 
 .c2 {
   position: absolute;
   bottom: 5%;
   left: -10%;
-  transform: scale(0.9);
 }
 
 .graybar {
@@ -547,7 +545,7 @@ form label {
 }
 [class^=tarjetamovil]:not(.tarjetamovil) .tarjetamovil-contenido h2 {
   margin: 0;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "roboto", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   opacity: 0;
@@ -731,6 +729,12 @@ main .product .product-info .product-description {
   }
   .c2 {
     left: 9%;
+  }
+  .c2 {
+    transform: scale(0.9);
+  }
+  .c1 {
+    transform: scale(0.9);
   }
 }
 @media (max-width: 940px) {

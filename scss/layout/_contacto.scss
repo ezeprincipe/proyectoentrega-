@@ -1,5 +1,5 @@
 form {
-   @include flex-alaing-direction(center,column);
+  @extend .mapa;
 
   label {
     font-size: 28px;

@@ -1,5 +1,5 @@
 .flex-grid {
-  @include flex-alaing-direction(center,column);
+ @extend .mapa;
   padding: 3% 0% 0%;
   justify-content: center;
 }
@@ -47,7 +47,7 @@
 
     h2 {
       margin: 0;
-      font-family: 'Roboto Condensed', sans-serif;
+      font-family: $fuente-roboto;
       font-weight: normal;
       text-transform: uppercase;
       opacity: 0;
@@ -141,7 +141,7 @@
 }
 
 .galeriaprinci {
-  @include flex-alaing-direction(center,column);
+ @extend .mapa;
   padding: 20px;
   background-color: $color-fondo;
 }
