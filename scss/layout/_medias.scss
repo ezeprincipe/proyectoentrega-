@@ -1,7 +1,10 @@
-@media (max-width: 1490px){ main h2{font-size: 13px;}
+//1490px
+@media (max-width: 1490px){ main h2{font-size: 18px;}
 .c1{left: 15%;}
 .c2{left: 9%;}}
 
+
+//768px
 @media (max-width: 768px){
   .grid-unico {
   grid-template-columns:repeat(2,1fr);
@@ -17,20 +20,29 @@
   .c1{left: 15%;}
   .c2{left: 9%;}
 }
+
+
+//730px
 @media (max-width:730px){
   .ulmenu li a{
     font-size: 27px;
   }
 }
 
+
+// 680px
 @media (max-width:680px){
   .ulmenu li a {font-size:23px; }
 }
 
+
+// 613px
 @media (max-width:613px){
   .ulmenu li a {font-size:20px; }
 }
 
+
+// 576px
 @media (max-width:576px){
   .ulmenu li a {font-size:18px; }
 }

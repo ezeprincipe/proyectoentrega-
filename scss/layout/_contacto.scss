@@ -22,12 +22,10 @@ form {
 }
 
 .login-box {
-  // position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   padding: 40px;
-  // transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
@@ -39,10 +37,6 @@ form {
     color: #fff;
     text-align: center;
   }
-
-  //   .login-box .user-box {
-  //     position: relative;
-  //   }
 
   .user-box {
     input {
@@ -58,7 +52,6 @@ form {
     }
 
     label {
-      // position: absolute;
       top: 0;
       left: 0;
       padding: 10px 0;
@@ -79,7 +72,6 @@ form {
 
   form {
     a {
-      // position: relative;
       display: inline-block;
       padding: 10px 20px;
       color: $color-blanco;
@@ -101,7 +93,6 @@ form {
       }
 
       span {
-        // position: absolute;
         display: block;
       }
 
