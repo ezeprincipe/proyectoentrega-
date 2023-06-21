@@ -89,10 +89,14 @@ header {
 .ulmenu li a {
   color: #ffffff;
   text-decoration: none;
-  border-radius: 10px;
   padding: 7px 12px;
   font-size: 32px;
   font-weight: bold;
+  border-bottom: solid 3px transparent;
+  transition: 1s;
+}
+.ulmenu li a:hover {
+  border-bottom: solid 3px #ffffff;
 }
 
 .footer nav ul li a {
@@ -145,9 +149,6 @@ footer a {
 }
 
 .indexprinci {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   padding: 20px;
   background-color: rgba(25, 25, 25, 0.9803921569);
 }
@@ -309,12 +310,12 @@ footer a {
   z-index: -1;
 }
 
-.mapa {
+.mapa, .galeriaprinci, .flex-grid, form, .ayudaprinci, .indexprinci {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.mapa iframe {
+.mapa iframe, .galeriaprinci iframe, .flex-grid iframe, form iframe, .ayudaprinci iframe, .indexprinci iframe {
   object-fit: cover;
   height: 600px;
   width: 80%;
@@ -322,9 +323,6 @@ footer a {
 }
 
 .ayudaprinci {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   padding: 20px;
   background-color: rgba(25, 25, 25, 0.9803921569);
 }
@@ -337,11 +335,6 @@ textarea {
   align-items: center;
 }
 
-form {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 form label {
   font-size: 28px;
   margin-bottom: 10px;
@@ -497,9 +490,6 @@ form label {
   }
 }
 .flex-grid {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   padding: 3% 0% 0%;
   justify-content: center;
 }
@@ -631,9 +621,6 @@ form label {
 }
 
 .galeriaprinci {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   padding: 20px;
   background-color: rgba(25, 25, 25, 0.9803921569);
 }
